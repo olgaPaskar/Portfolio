@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(5, 199, 161);
+    background: radial-gradient(
+            circle,
+            rgb(0, 117, 88) 0%,
+            rgb(151, 234, 215) 35%,
+            rgb(5, 199, 161) 100%
+    );
+}
+
+.weather {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+#location {
+    font-size: 3rem;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.desc {
+    font-size: 1.25rem;
+    text-transform: capitalize;
+}
+
+.circle {
+    background-color: black;
+    border-radius: 50px;
+    height: 15px;
+    width: 15px;
+    margin: 0 15px;
+}
+
+.container {
+    text-align: center;
+}
+
+#city-input {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search-btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-btn:hover {
+    background-color: #45a049;
+}
