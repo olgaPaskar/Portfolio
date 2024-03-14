@@ -12,8 +12,8 @@ body {
     height: 100vh;
     width: 100vw;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     flex-direction: column;
     background: rgb(5, 199, 161);
     background: radial-gradient(
@@ -22,6 +22,7 @@ body {
             rgb(151, 234, 215) 35%,
             rgb(5, 199, 161) 100%
     );
+    padding: 20px;
 }
 
 .weather {
@@ -29,6 +30,7 @@ body {
     align-items: center;
     margin: 15px 0;
     font-size: 1.5rem;
+    text-align: left;
 }
 
 #location {
@@ -47,7 +49,7 @@ body {
     border-radius: 50px;
     height: 15px;
     width: 15px;
-    margin: 0 15px;
+    margin-right: 15px;
 }
 
 .container {
@@ -56,23 +58,43 @@ body {
 
 #city-input {
     padding: 10px;
-    margin-top: 10px;
+    margin: 0 auto;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
+
 }
 
 #search-btn {
     padding: 10px 20px;
-    margin-top: 10px;
+    margin: 10px auto 0;
     font-size: 16px;
     background-color: #4CAF50;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+
 }
 
 #search-btn:hover {
     background-color: #45a049;
 }
+#search-info {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    margin-left: 800px;
+}
+#weather-other {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 450px;
+}
+#weather-info {
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+

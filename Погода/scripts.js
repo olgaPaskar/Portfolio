@@ -68,7 +68,23 @@ document.addEventListener('DOMContentLoaded', () => {
         <p>Description: ${data.weather[0].description}</p>
     `;
     }
+    const citySelect = document.getElementById('city-input');
+
+    fetch('https://api.openweathermap.org/data/2.5/weather?q={city name}&appid=8d2b23833b2282cc7e34989c52989413') // здесь вам нужно вставить свой личный ключ API вместо "demo"
+        .then(response => response.json())
+        .then(data => {
+            data.geonames.forEach(city => {
+                const option = document.createElement('option');
+                option.textContent = `${city.name}, ${city.countryName}`;
+                option.value = city.name;
+                citySelect.appendChild(option);
+            });
+        })
+        .catch(error => {
+            console.error('Error fetching city data:', error);
+        });
 });
+
 
 
 

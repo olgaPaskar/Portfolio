@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb9198d5-474c-4a58-bf18-88fb26949f75" name="Changes" comment="">
+    <list default="true" id="bb9198d5-474c-4a58-bf18-88fb26949f75" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Погода/DOCTYPE.html" beforeDir="false" afterPath="$PROJECT_DIR$/Погода/DOCTYPE.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Погода/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/Погода/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Погода/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Погода/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,15 +28,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebstormProjects/JSCourse" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.DOCTYPE.html (1)">
+    <configuration name="DOCTYPE.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Portfolio/Погода/DOCTYPE.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="DOCTYPE.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Портфолио/Погода/DOCTYPE.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.DOCTYPE.html (1)" />
         <item itemvalue="JavaScript Debug.DOCTYPE.html" />
       </list>
     </recent_temporary>
@@ -49,11 +56,50 @@
       <workItem from="1709827755341" duration="31000" />
       <workItem from="1710006036162" duration="728000" />
       <workItem from="1710094179123" duration="25000" />
-      <workItem from="1710264863688" duration="649000" />
+      <workItem from="1710264863688" duration="880000" />
+      <workItem from="1710360219685" duration="2755000" />
+      <workItem from="1710397716795" duration="21000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1710265723781</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710265723781</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1710265786698</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710265786698</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1710265853392</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710265853392</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
